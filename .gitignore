@@ -1,0 +1,51 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+*.egg-info/
+dist/
+build/
+.dist/
+
+# Virtual Environment
+venv/
+env/
+ENV/
+
+# Airflow
+airflow.db
+airflow.cfg
+airflow-webserver.pid
+webserver_config.py
+logs/
+*.log
+*.pid
+
+# Database
+*.db
+*.sqlite
+*.sqlite3
+/tmp/
+
+# OS
+.DS_Store
+Thumbs.db
+*~
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Temporary files
+*.tmp
+*.bak
+*.csv
+*.html
+
+# Airflow specific
+pwd*/
+unittests.cfg
